@@ -1,5 +1,5 @@
-const express:  any = import("express");
-const app: any = express();
+const express:any = import("express");
+const app:any = express();
 const port = 8080;
 
 app.get("/", (req, res) => {
