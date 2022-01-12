@@ -1,11 +1,8 @@
-const express:any = import("express");
-const app:any = express();
-const port = 8080;
+import express from "express";
 
-app.get("/", (req, res) => {
-  res.send("Hello world!");
-});
+const app = express();
+const port = 3000;
 
 app.listen(port, () => {
-  console.log(`server started at http://localhost:${port}`);
+  console.log(`Timezones by location application is running on port ${port}.`);
 });
