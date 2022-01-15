@@ -7,7 +7,7 @@ createConnection({
   username: "admin",
   password: "admin",
   database: "test",
-  entities: [__dirname + "/src/modules/**/*.ts"],
+  entities: [__dirname + '/../**/*.entity{.ts,.js}'],
   synchronize: true,
 })
   .then((connection) => {
